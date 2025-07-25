@@ -1,0 +1,48 @@
+/* 
+  Break Points
+  ------------------------------ 
+  --QLD-media-sm: 400px;
+  --QLD-media-md: 699px;
+  --QLD-media-lg: 992px;
+  --QLD-media-xl: 1312px;
+  --QLD-media-xxl: 1599px;
+*/
+
+/*
+  Design System CSS Overrides
+*/
+/* PBI 79887 */
+.qld__main-nav .qld__main-nav__menu .qld__main-nav__item.active .qld__main-nav__item-link:hover {
+  border-color: var(--QLD-color-light__action--primary-hover);
+}
+.qld__main-nav.qld__main-nav--dark .qld__main-nav__menu .qld__main-nav__item.active .qld__main-nav__item-link:hover {
+  border-color: var(--QLD-color-dark__action--secondary-hover);
+}
+
+/* PBI 79913 */
+.qld__main-nav.qld__main-nav--mega .qld__main-nav__item-link--open{
+  font-weight: bold;
+}
+
+@media (min-width: 699px) and (max-width: 992px)  {
+  /* PBI 79856 */
+  .qld__footer__navigation ul.qld__link-list{
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 992px)  {
+  /* PBI 79883 */
+  .qld__header__pre-header > div > a{
+    z-index: 1;
+  }
+}
+@media (min-width: 992px){
+  /* PBI 79911 */
+  .qld__main-nav.qld__main-nav--mega .qld__main-nav__item-toggle.qld__accordion--open{
+    text-decoration: underline;
+    -webkit-text-decoration: underline;
+    text-decoration-thickness: var(--QLD-underline__thickness-thick);
+    -webkit-text-decoration-color: var(--QLD-color-light__underline--hover);
+    text-decoration-color: var(--QLD-color-light__underline--hover);
+  }
+}
