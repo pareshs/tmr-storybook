@@ -1,15 +1,17 @@
 export const createButton = ({
-  btnType = 'primary',
-  label,
-  onClick,
+    variant = 'primary',
+    label,
+    disabled,
+    backgroundColor,
+    onClick,
 }) => {
-  const btn = document.createElement('button');
-  btn.type = 'button';
-  btn.innerText = label;
-  btn.addEventListener('click', onClick);
+    const btn = document.createElement('button');
+    btn.variant = 'button';
+    btn.innerText = label;
+    btn.addEventListener('click', onClick);
 
-  const mode = 'qld__btn';
-  //btn.className = ['qld__btn', `qld__btn--${btnType}`, mode].join(' ');
-  btn.className = `qld__btn qld__btn--${btnType}`;
+    btn.className = `qld__btn qld__btn--${variant}`;
+    btn.style.backgroundColor = backgroundColor;
+    btn.disabled = disabled;
   return btn;
 };

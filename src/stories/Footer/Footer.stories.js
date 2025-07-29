@@ -1,6 +1,7 @@
 import { fn } from 'storybook/test';
 
 import { createFooter } from './Footer';
+import defaultdata from "./footer.data.json";
 
 export default {
   title: 'Layout/Footer',
@@ -12,18 +13,10 @@ export default {
     layout: 'padded',
   },
   args: {
-    onLogin: fn(),
-    onLogout: fn(),
-    onCreateAccount: fn(),
-  },
-};
-
-export const LoggedIn = {
-  args: {
-    user: {
-      name: 'Jane Doe',
+    data: {
+      sitename: 'Department of Transport and Main Roads',
     },
   },
 };
 
-export const LoggedOut = {};
+export const Footer = {};
