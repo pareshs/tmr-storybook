@@ -9,7 +9,7 @@ const config = {
   "addons": [
     "@storybook/addon-docs",
     "@storybook/addon-a11y",
-    //"@chromatic-com/storybook"
+    "@chromatic-com/storybook",
   ],
   "framework": {
     "name": "@storybook/html-vite",

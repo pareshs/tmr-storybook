@@ -1,36 +1,29 @@
 import { createButton } from '../Button/Button';
 
-export const createFooter = ({
-    data,
-    disableCOA = true,
- }) => {
+export const createFooter = ({ data }) => {
   const footer = document.createElement('footer');
   footer.className = 'qld__footer qld__footer--dark';
   footer.role = 'contentinfo';
-  
-  //const wrapper = '';
-  //wrapper.className = '';
 
-  let newBtn = createButton({ label: 'Contact Us', btnType: 'secondary' });
-  //createButton({ label: 'Contact Us', btnType: 'secondary' })
-  const footerContent = `
-    
-    <!-- Section 1: Site title -->
+  const footerSections_siteTitle = `
     <div class="container-fluid">
         <div class="row qld__footer__row">
             <div class="col-xs-12 qld__footer__column">
                 <div class="qld__footer__title">
                     <h2 class="qld__footer__heading">${data.sitename}</h2>
-                    <Button class="qld__btn qld__btn--primary">Primary Button</Button>
                 </div>
             </div>
         </div>
     </div>
+  `;
 
-     <!-- Footer content container -->
+  const footerContainerStart = `
+    <!-- Footer content container -->
     <div class="container-fluid">
         <div class="row">
+  `;
 
+  const footerContact = `
             <div class="col-xs-12 col-lg-3 qld__footer__column">
                 <div class="container-fluid">
                     <div class="row qld__footer-contact">
@@ -48,12 +41,14 @@ export const createFooter = ({
                             </p>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-lg-12">
-                                ` + createButton({ label: 'Contact Us', btnType: 'secondary' }) + `
+                            ${createButton({ label: 'Contact Us', variant: 'secondary' }).outerHTML}
                         </div>
                     </div>
                 </div>
             </div>
+  `;
 
+  const footerLinks = `
             <div class="col-xs-12 col-lg-2 qld__footer__column">
                 <nav class="qld__footer__navigation" aria-label="Queensland Government links">
                 <h3 class="sr-only">Queensland Government links</h3>
@@ -82,7 +77,9 @@ export const createFooter = ({
                     </ul>
                 </nav>
             </div>
+  `;
 
+  const footerSocial = `
             <div class="col-xs-12 col-lg-2 qld__footer__column">
                 <nav class="qld__footer__social" aria-label="social media links">
                     <h3 class="qld__footer__heading">Follow us</h3>
@@ -119,8 +116,10 @@ export const createFooter = ({
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </div>  
+  `; 
 
+  const footerAcknowledgements = `
             <div class="col-xs-12 qld__footer__column">
                 <div>                  
                     <h3 class="qld__footer__heading">
@@ -138,16 +137,18 @@ export const createFooter = ({
                     </p>
                     <a class="qld__footer__clickable__link qld__footer__copyright-link" href="https://www.qld.gov.au/" rel="external">Queensland Government</a>                                            
                 </div>
-            </div> 
+            </div>   
+  `;
+
+  const footerContainerEnd = `
         </div>
 
     </div>
-`;
+  `;
 
-  //wrapper.insertAdjacentHTML('afterbegin', footerContent);
-
-  //footer.appendChild(wrapper);
-  footer.insertAdjacentHTML('afterbegin', footerContent);
+  const footerContents = [footerSections_siteTitle, footerContainerStart, footerContact, footerLinks, footerSocial, footerAcknowledgements, footerContainerEnd];
+  const footerContentRender = footerContents.join('');
+  footer.innerHTML = footerContentRender;
 
   return footer;
 };
