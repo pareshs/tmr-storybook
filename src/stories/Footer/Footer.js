@@ -1,7 +1,9 @@
 import { createButton } from '../Button/Button';
-import template from "./footer.hbs?raw";
 
-export const createFooter = ({data }) => {
+export const createFooter = ({
+    data,
+    disableCOA = true,
+ }) => {
   const footer = document.createElement('footer');
   footer.className = 'qld__footer qld__footer--dark';
   footer.role = 'contentinfo';
@@ -10,6 +12,7 @@ export const createFooter = ({data }) => {
   //wrapper.className = '';
 
   let newBtn = createButton({ label: 'Contact Us', btnType: 'secondary' });
+  //createButton({ label: 'Contact Us', btnType: 'secondary' })
   const footerContent = `
     
     <!-- Section 1: Site title -->
@@ -18,6 +21,7 @@ export const createFooter = ({data }) => {
             <div class="col-xs-12 qld__footer__column">
                 <div class="qld__footer__title">
                     <h2 class="qld__footer__heading">${data.sitename}</h2>
+                    <Button class="qld__btn qld__btn--primary">Primary Button</Button>
                 </div>
             </div>
         </div>
@@ -44,7 +48,7 @@ export const createFooter = ({data }) => {
                             </p>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-lg-12">
-                                ${createButton({ label: 'Contact Us', btnType: 'secondary' })}
+                                ` + createButton({ label: 'Contact Us', btnType: 'secondary' }) + `
                         </div>
                     </div>
                 </div>
@@ -124,7 +128,7 @@ export const createFooter = ({data }) => {
                     </h3>
                     <p class="qld__footer__acknowledgements">
                         Queensland Government acknowledges the Traditional Owners of the land and pays respect to Elders past, present and future.
-                    </p>      
+                    </p>   
                     <a class="qld__footer__logo" href="https://www.qld.gov.au/">
                         <img class="qld__footer__logo-image" alt="Queensland Government Coat of Arms" src="../src/images/coa-landscape-2-lines.svg">                    
                     </a>

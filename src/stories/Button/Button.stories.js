@@ -6,6 +6,7 @@ import { createButton } from './Button';
 export default {
   title: 'Components/Button',
   tags: ['autodocs'],
+  //component: Button,
   render: ({ label, ...args }) => {
     // You can either use a function to create DOM elements or use a plain html string!
     // return `<div>${label}</div>`;
