@@ -1,29 +1,26 @@
-import { fn } from 'storybook/test';
-
 import { createHeader } from './Header';
+import data from "../assets/sitedata.json";
 
 export default {
   title: 'Layout/Header',
-  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
   render: (args) => createHeader(args),
   parameters: {
-    // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
-    layout: 'fullscreen',
+    layout: 'padded',
+  },
+  argTypes: {
+    headerContactHasPhone: { control: 'boolean'}, 
+    headerContactHasEmail: { control: 'boolean'}, 
+    headerHasSocialMedia: { control: 'boolean'}, 
+    headerHasCoa: { control: 'boolean'}, 
   },
   args: {
-    onLogin: fn(),
-    onLogout: fn(),
-    onCreateAccount: fn(),
+    headerContactHasPhone: data.headerContactHasPhone,
+    headerContactHasEmail: data.headerContactHasEmail,
+    headerHasSocialMedia: data.headerHasSocialMedia,
+    headerHasCoa: data.headerHasCoa,
+    data: data
   },
 };
 
-export const LoggedIn = {
-  args: {
-    user: {
-      name: 'Jane Doe',
-    },
-  },
-};
-
-export const LoggedOut = {};
+export const Header = {};
