@@ -1,6 +1,6 @@
 import { Button } from '../Button/Button';
 
-export const createFooter = ({ data }) => {
+export const createFooter = ({ disableCOA, data }) => {
   const footer = document.createElement('footer');
   footer.className = 'qld__footer qld__footer--dark';
   footer.role = 'contentinfo';
@@ -119,6 +119,14 @@ export const createFooter = ({ data }) => {
             </div>  
   `; 
 
+  let COA = '';
+  if(!disableCOA){
+    COA = `
+                    <a class="qld__footer__logo" href="https://www.qld.gov.au/">
+                        <img class="qld__footer__logo-image" alt="Queensland Government Coat of Arms" src="../src/images/coa-landscape-2-lines.svg">                    
+                    </a>`;
+  }
+
   const footerAcknowledgements = `
             <div class="col-xs-12 qld__footer__column">
                 <div>                  
@@ -127,10 +135,8 @@ export const createFooter = ({ data }) => {
                     </h3>
                     <p class="qld__footer__acknowledgements">
                         Queensland Government acknowledges the Traditional Owners of the land and pays respect to Elders past, present and future.
-                    </p>   
-                    <a class="qld__footer__logo" href="https://www.qld.gov.au/">
-                        <img class="qld__footer__logo-image" alt="Queensland Government Coat of Arms" src="../src/images/coa-landscape-2-lines.svg">                    
-                    </a>
+                    </p>
+                    ${COA}
                     <h3 class="sr-only">Copyright statement</h3>
                     <p class="qld__footer__copyrightMessage">
                         © The State of Queensland 2017-2025 (${data.sitename})

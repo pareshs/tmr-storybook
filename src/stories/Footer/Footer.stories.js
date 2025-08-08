@@ -10,7 +10,11 @@ export default {
   parameters: {
     layout: 'padded',
   },
+  argTypes: {
+    disableCOA: { control: 'boolean'}, 
+  },
   args: {
+    disableCOA: false,
     data: defaultdata
   },
 };
