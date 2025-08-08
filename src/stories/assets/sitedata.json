@@ -1,25 +1,24 @@
 {
-    "sitename": "Department of Transport and Main Roads",
-    "variantClass": "",
-    "contactHasContactListDisabled": false,
-    "footerHasCrestDisabled": false,
-    "footerHasStateOfQld": true,
-    "feedbackFormDisabled": false,
-    "followlinksDisabled": false,
-    "copyrightHasYearFrom": false,
-    "copyrightOrganisationName": "Organisation",
+    "sitename": "Citytrain Response Unit",
+    "organisationName": "Department of Transport and Main Roads",
+    
+    "footerContactHasPhone": true,
+    "footerContactHasEmail": true,
+    "footerHasSocialMedia": true,
+    "footerHasCoa": true,
+    
     "contact": {
         "hasBorderColumn": false,
         "title": "Contact us",
-        "content": "<p>Get in touch for enquiries, feedback, complaints and compliments.</p>",
+        "content": "If you have a question or would like to give feedback, you can get in touch with us.",
         "list": {
             "phone": {
-                "icon": "icon-phone",
-                "label": "<b>Phone:</b> 13 QGOV (13 74 68)"
+                "icon": "phone",
+                "label": "13 QGOV (13 74 68)"
             },
             "email": {
-                "icon": "icon-email",
-                "label": "<b>Email:</b> <span class='user-select-all'>email@qld.gov.au</span>"
+                "icon": "email",
+                "label": "email@qld.gov.au"
             }
         },
         "buttonLabel": "Contact us",
@@ -34,42 +33,25 @@
     "acknowledgements": [
         {
             "title": "Acknowledgement of Country",
-            "content": "<p>We pay our respects to the Aboriginal and Torres Strait Islander ancestors of this land, their spirits and their legacy. The foundations laid by these ancestors—our First Nations peoples—give strength, inspiration and courage to current and future generations towards creating a better Queensland.</p>"
+            "content": "Queensland Government acknowledges the Traditional Owners of the land and pays respect to Elders past, present and future."
         }
     ],
     "copyright": {
         "hasBorderColumnDisabled": false,
         "content": "&copy; The State of Queensland",
-        "yearFrom": "1995"
+        "yearFrom": "2017-2025"
     },
     "footerlinks": {
-        "hasBorderColumn": false,
         "title": "",
         "list": {
-            "Help": { "link": "https://www.qld.gov.au/help" },
-            "Copyright": { "link": "https://www.qld.gov.au/legal/copyright" },
-            "Disclaimer": { "link": "https://www.qld.gov.au/legal/disclaimer" },
-            "Privacy": {"link": "https://www.qld.gov.au/legal/privacy" },
-            "Right to information": { "link": "https://www.qld.gov.au/about/rights-accountability/right-to-information" },
-            "Accessibility": { "link": "https://www.qld.gov.au/help/accessibility" },
-            "Jobs in Queensland Government": { "link": "https://smartjobs.qld.gov.au",  "new_window": true },
-            "Other languages": { "link": "https://www.qld.gov.au/help/languages" }
+            "Copyright": { "link" :"https://www.qld.gov.au/legal/copyright"},
+            "Disclaimer": { "link" :"https://www.qld.gov.au/legal/disclaimer/"},
+            "Privacy": { "link" :"https://www.qld.gov.au/legal/privacy/"},
+            "Right to information": { "link" :"https://www.tmr.qld.gov.au/About us/Right to Information"},
+            "Accessibility": { "link" :"https://www.qld.gov.au/help/accessibility/"},
+            "Jobs in Queensland Government": { "link" :"https://smartjobs.qld.gov.au/"},
+            "Other languages": { "link" :"https://www.qld.gov.au/help/languages"}
         }
-    },
-    "feedbackForm" : {
-        "hasBorderColumnDisabled": false,
-        "title": "Website feedback",
-        "content": "Help us improve the content on our website or tell us what is working well.",
-        "btnTitle": "Leave your feedback",
-        "formAttr": {
-            "data-formio": "",
-            "data-formio-project-name": "oldkihhcwbdtwye",
-            "data-formio-form-name": "footerfeedbackcontactus",
-            "data-formio-env-url": "api.forms.platforms.qld.gov.au",
-            "data-formio-createForm-options": "formioCreateFormOptions",
-            "data-formio-createForm-controller": "formioCreateFormController"
-        },
-        "formioResource": "https://static.qgov.net.au/formio-qld/v2/v2.x.x-latest/formio-script.min.js"
     },
     "followlinks": {
         "hasBorderColumn": true,

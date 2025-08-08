@@ -1,7 +1,5 @@
-import { fn } from 'storybook/test';
-
 import { createFooter } from './Footer';
-import defaultdata from "./footer.data.json";
+import data from "./../assets/sitedata.json";
 
 export default {
   title: 'Layout/Footer',
@@ -11,11 +9,17 @@ export default {
     layout: 'padded',
   },
   argTypes: {
-    disableCOA: { control: 'boolean'}, 
+    footerContactHasPhone: { control: 'boolean'}, 
+    footerContactHasEmail: { control: 'boolean'}, 
+    footerHasSocialMedia: { control: 'boolean'}, 
+    footerHasCoa: { control: 'boolean'}, 
   },
   args: {
-    disableCOA: false,
-    data: defaultdata
+    footerContactHasPhone: data.footerContactHasPhone,
+    footerContactHasEmail: data.footerContactHasEmail,
+    footerHasSocialMedia: data.footerHasSocialMedia,
+    footerHasCoa: data.footerHasCoa,
+    data: data
   },
 };
 
