@@ -1,4 +1,4 @@
-import { createButton } from '../Button/Button';
+import { Button } from '../Button/Button';
 
 export const createFooter = ({ data }) => {
   const footer = document.createElement('footer');
@@ -41,7 +41,7 @@ export const createFooter = ({ data }) => {
                             </p>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-lg-12">
-                            ${createButton({ label: 'Contact Us', variant: 'secondary' }).outerHTML}
+                            ${Button({ label: 'Contact Us', variant: 'secondary' }).outerHTML}
                         </div>
                     </div>
                 </div>

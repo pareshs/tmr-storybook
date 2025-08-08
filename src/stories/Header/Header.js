@@ -1,4 +1,4 @@
-import { createButton } from '../Button/Button';
+import { Button } from '../Button/Button';
 import './header.css';
 
 export const createHeader = ({ user, onLogout, onLogin, onCreateAccount }) => {
@@ -28,11 +28,11 @@ export const createHeader = ({ user, onLogout, onLogin, onCreateAccount }) => {
   if (user) {
     const welcomeMessage = `<span class="welcome">Welcome, <b>${user.name}</b>!</span>`;
     account.innerHTML = welcomeMessage;
-    account.appendChild(createButton({ size: 'small', label: 'Log out', onClick: onLogout }));
+    account.appendChild(Button({ size: 'small', label: 'Log out', onClick: onLogout }));
   } else {
-    account.appendChild(createButton({ size: 'small', label: 'Log in', onClick: onLogin }));
+    account.appendChild(Button({ size: 'small', label: 'Log in', onClick: onLogin }));
     account.appendChild(
-      createButton({
+      Button({
         size: 'small',
         label: 'Sign up',
         onClick: onCreateAccount,

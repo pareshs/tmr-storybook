@@ -1,4 +1,4 @@
-export const createButton = ({
+export const Button = ({
     variant = 'primary',
     label,
     disabled,
