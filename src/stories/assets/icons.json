@@ -1,0 +1,434 @@
+{
+    "arrow-up":{
+        "name": "arrow-up",
+        "title": "arrow-up"
+    }, 
+    "arrow-down":{
+        "name": "arrow-down",
+        "title": "arrow-down"
+    }, 
+    "arrow-left":{
+        "name": "arrow-left",
+        "title": "arrow-left"
+    }, 
+    "arrow-right":{
+        "name": "arrow-right",
+        "title": "arrow-right"
+    }, 
+    "view-all":{
+        "name": "view-all",
+        "title": "view-all"
+    }, 
+    "chevron-up":{
+        "name": "chevron-up",
+        "title": "chevron-up"
+    }, 
+    "chevron-down":{
+        "name": "chevron-down",
+        "title": "chevron-down"
+    }, 
+    "chevron-left":{
+        "name": "chevron-left",
+        "title": "chevron-left"
+    }, 
+    "chevron-right":{
+        "name": "chevron-right",
+        "title": "chevron-right"
+    }, 
+    "attach":{
+        "name": "attach",
+        "title": "attach"
+    }, 
+    "calendar":{
+        "name": "calendar",
+        "title": "calendar"
+    }, 
+    "close":{
+        "name": "close",
+        "title": "close"
+    }, 
+    "copy":{
+        "name": "copy",
+        "title": "copy"
+    }, 
+    "delete":{
+        "name": "delete",
+        "title": "delete"
+    }, 
+    "direction-up-down":{
+        "name": "direction-up-down",
+        "title": "direction-up-down"
+    }, 
+    "download":{
+        "name": "download",
+        "title": "download"
+    }, 
+    "edit":{
+        "name": "edit",
+        "title": "edit"
+    }, 
+    "enlarge":{
+        "name": "enlarge",
+        "title": "enlarge"
+    }, 
+    "favourite":{
+        "name": "favourite",
+        "title": "favourite"
+    }, 
+    "filter":{
+        "name": "filter",
+        "title": "filter"
+    }, 
+    "global-nav":{
+        "name": "global-nav",
+        "title": "global-nav"
+    }, 
+    "hide":{
+        "name": "hide",
+        "title": "hide"
+    }, 
+    "home":{
+        "name": "home",
+        "title": "home"
+    }, 
+    "language":{
+        "name": "language",
+        "title": "language"
+    }, 
+    "like":{
+        "name": "like",
+        "title": "like"
+    }, 
+    "location":{
+        "name": "location",
+        "title": "location"
+    }, 
+    "log-in":{
+        "name": "log-in",
+        "title": "log-in"
+    }, 
+    "log-out":{
+        "name": "log-out",
+        "title": "log-out"
+    }, 
+    "manage-accounts":{
+        "name": "manage-accounts",
+        "title": "manage-accounts"
+    }, 
+    "menu":{
+        "name": "menu",
+        "title": "menu"
+    }, 
+    "minus":{
+        "name": "minus",
+        "title": "minus"
+    }, 
+    "more-horizontal":{
+        "name": "more-horizontal",
+        "title": "more-horizontal"
+    }, 
+    "more-vertical":{
+        "name": "more-vertical",
+        "title": "more-vertical"
+    }, 
+    "pause":{
+        "name": "pause",
+        "title": "pause"
+    }, 
+    "play":{
+        "name": "play",
+        "title": "play"
+    }, 
+    "plus":{
+        "name": "plus",
+        "title": "plus"
+    }, 
+    "print":{
+        "name": "print",
+        "title": "print"
+    }, 
+    "refresh":{
+        "name": "refresh",
+        "title": "refresh"
+    }, 
+    "save":{
+        "name": "save",
+        "title": "save"
+    }, 
+    "search":{
+        "name": "search",
+        "title": "search"
+    }, 
+    "settings":{
+        "name": "settings",
+        "title": "settings"
+    }, 
+    "share":{
+        "name": "share",
+        "title": "share"
+    }, 
+    "show":{
+        "name": "show",
+        "title": "show"
+    }, 
+    "sort-alpha":{
+        "name": "sort-alpha",
+        "title": "sort-alpha"
+    }, 
+    "stop":{
+        "name": "stop",
+        "title": "stop"
+    }, 
+    "tick":{
+        "name": "tick",
+        "title": "tick"
+    }, 
+    "upload":{
+        "name": "upload",
+        "title": "upload"
+    }, 
+    "zoom":{
+        "name": "zoom",
+        "title": "zoom"
+    }, 
+    "alert-cancel":{
+        "name": "alert-cancel",
+        "title": "alert-cancel"
+    }, 
+    "alert-danger":{
+        "name": "alert-danger",
+        "title": "alert-danger"
+    }, 
+    "alert-error":{
+        "name": "alert-error",
+        "title": "alert-error"
+    }, 
+    "alert-information":{
+        "name": "alert-information",
+        "title": "alert-information"
+    }, 
+    "alert-maintenance-":{
+        "name": "alert-maintenance-",
+        "title": "alert-maintenance-"
+    }, 
+    "alert-success":{
+        "name": "alert-success",
+        "title": "alert-success"
+    }, 
+    "alert-warning":{
+        "name": "alert-warning",
+        "title": "alert-warning"
+    }, 
+    "status-cancel":{
+        "name": "status-cancel",
+        "title": "status-cancel"
+    }, 
+    "status-danger":{
+        "name": "status-danger",
+        "title": "status-danger"
+    }, 
+    "status-error":{
+        "name": "status-error",
+        "title": "status-error"
+    }, 
+    "status-info":{
+        "name": "status-info",
+        "title": "status-info"
+    }, 
+    "status-maintenance":{
+        "name": "status-maintenance",
+        "title": "status-maintenance"
+    }, 
+    "status-success":{
+        "name": "status-success",
+        "title": "status-success"
+    }, 
+    "status-warning":{
+        "name": "status-warning",
+        "title": "status-warning"
+    }, 
+    "accessibility":{
+        "name": "accessibility",
+        "title": "accessibility"
+    }, 
+    "announcement":{
+        "name": "announcement",
+        "title": "announcement"
+    }, 
+    "article":{
+        "name": "article",
+        "title": "article"
+    }, 
+    "audio":{
+        "name": "audio",
+        "title": "audio"
+    }, 
+    "car":{
+        "name": "car",
+        "title": "car"
+    }, 
+    "chart":{
+        "name": "chart",
+        "title": "chart"
+    }, 
+    "clock":{
+        "name": "clock",
+        "title": "clock"
+    }, 
+    "code":{
+        "name": "code",
+        "title": "code"
+    }, 
+    "cost":{
+        "name": "cost",
+        "title": "cost"
+    }, 
+    "design":{
+        "name": "design",
+        "title": "design"
+    }, 
+    "directions":{
+        "name": "directions",
+        "title": "directions"
+    }, 
+    "document":{
+        "name": "document",
+        "title": "document"
+    }, 
+    "document-error":{
+        "name": "document-error",
+        "title": "document-error"
+    }, 
+    "document-pdf":{
+        "name": "document-pdf",
+        "title": "document-pdf"
+    }, 
+    "document-spreadsheet":{
+        "name": "document-spreadsheet",
+        "title": "document-spreadsheet"
+    }, 
+    "document-word":{
+        "name": "document-word",
+        "title": "document-word"
+    }, 
+    "external-link":{
+        "name": "external-link",
+        "title": "external-link"
+    }, 
+    "help":{
+        "name": "help",
+        "title": "help"
+    }, 
+    "identity":{
+        "name": "identity",
+        "title": "identity"
+    }, 
+    "identity-face":{
+        "name": "identity-face",
+        "title": "identity-face"
+    }, 
+    "image":{
+        "name": "image",
+        "title": "image"
+    }, 
+    "links":{
+        "name": "links",
+        "title": "links"
+    }, 
+    "lock":{
+        "name": "lock",
+        "title": "lock"
+    }, 
+    "lock-open":{
+        "name": "lock-open",
+        "title": "lock-open"
+    }, 
+    "Email":{
+        "name": "Email",
+        "title": "Email"
+    }, 
+    "microphone":{
+        "name": "microphone",
+        "title": "microphone"
+    }, 
+    "notifications":{
+        "name": "notifications",
+        "title": "notifications"
+    }, 
+    "notifications-circle":{
+        "name": "notifications-circle",
+        "title": "notifications-circle"
+    }, 
+    "op-ed":{
+        "name": "op-ed",
+        "title": "op-ed"
+    }, 
+    "parking":{
+        "name": "parking",
+        "title": "parking"
+    }, 
+    "pdf":{
+        "name": "pdf",
+        "title": "pdf"
+    }, 
+    "pending":{
+        "name": "pending",
+        "title": "pending"
+    }, 
+    "phone":{
+        "name": "phone",
+        "title": "phone"
+    }, 
+    "podcast":{
+        "name": "podcast",
+        "title": "podcast"
+    }, 
+    "profile":{
+        "name": "profile",
+        "title": "profile"
+    }, 
+    "speech":{
+        "name": "speech",
+        "title": "speech"
+    }, 
+    "spreadsheet":{
+        "name": "spreadsheet",
+        "title": "spreadsheet"
+    }, 
+    "transcript":{
+        "name": "transcript",
+        "title": "transcript"
+    }, 
+    "users":{
+        "name": "users",
+        "title": "users"
+    }, 
+    "video":{
+        "name": "video",
+        "title": "video"
+    }, 
+    "wheelchair":{
+        "name": "wheelchair",
+        "title": "wheelchair"
+    }, 
+    "Facebook":{
+        "name": "Facebook",
+        "title": "Facebook"
+    }, 
+    "Instagram":{
+        "name": "Instagram",
+        "title": "Instagram"
+    }, 
+    "LinkedIn":{
+        "name": "LinkedIn",
+        "title": "LinkedIn"
+    }, 
+    "X":{
+        "name": "X",
+        "title": "X"
+    }, 
+    "YouTube":{
+        "name": "YouTube",
+        "title": "YouTube"
+    }
+}

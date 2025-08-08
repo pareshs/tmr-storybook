@@ -1,4 +1,7 @@
 import { iconsList } from './Icons';
+import './Icons.css';
+//import iconsList from "../../images/icons.svg";
+import iconsData from "./../assets/icons.json";
 
 export default {
   title: 'Components/Icons',
@@ -7,6 +10,7 @@ export default {
   argTypes: {
   },
   args: {
+    iconsData: iconsData
   },
 };
 
