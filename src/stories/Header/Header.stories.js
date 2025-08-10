@@ -9,16 +9,8 @@ export default {
     layout: 'padded',
   },
   argTypes: {
-    headerContactHasPhone: { control: 'boolean'}, 
-    headerContactHasEmail: { control: 'boolean'}, 
-    headerHasSocialMedia: { control: 'boolean'}, 
-    headerHasCoa: { control: 'boolean'}, 
   },
   args: {
-    headerContactHasPhone: data.headerContactHasPhone,
-    headerContactHasEmail: data.headerContactHasEmail,
-    headerHasSocialMedia: data.headerHasSocialMedia,
-    headerHasCoa: data.headerHasCoa,
     data: data
   },
 };

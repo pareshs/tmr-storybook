@@ -1,28 +1,15 @@
-import { expect, userEvent, within } from 'storybook/test';
-
+import data from "../assets/sitedata.json";
 import { createPage } from './Page';
 
 export default {
-  title: 'Main Container Wrapper/Page',
-  render: () => createPage(),
+  title: 'Wrapper/Full Page',
+  render: (args) => createPage(args),
   parameters: {
-    // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: 'fullscreen',
   },
-};
-
-export const LoggedOut = {};
-
-// More on component testing: https://storybook.js.org/docs/writing-tests/interaction-testing
-export const LoggedIn = {
-  play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement);
-    const loginButton = canvas.getByRole('button', { name: /Log in/i });
-    await expect(loginButton).toBeInTheDocument();
-    await userEvent.click(loginButton);
-    await expect(loginButton).not.toBeInTheDocument();
-
-    const logoutButton = canvas.getByRole('button', { name: /Log out/i });
-    await expect(logoutButton).toBeInTheDocument();
+  args: {
+    data: data
   },
 };
+
+export const Page = {};
