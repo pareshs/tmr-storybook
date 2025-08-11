@@ -3,8 +3,8 @@ import "../src/styles/custom.css";
 
 
 //import "../src/scripts/main.js";
-import "../src/scripts/runtime.js";
-import "../src/scripts/custom.js";
+//import "../src/scripts/runtime.js";
+//import "../src/scripts/custom.js";
 
 /** @type { import('@storybook/html-vite').Preview } */
 
