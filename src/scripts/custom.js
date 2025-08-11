@@ -12,6 +12,7 @@
         init: function () {
             this.cacheDom();
             this.activateIsNotDesktop();
+            this.activateAll();
         },
         cacheDom: function () {
             //Body
@@ -20,6 +21,8 @@
             this.mainNav_ToggleOpen = document.querySelector(".qld__main-nav__toggle--open"),
             this.mainNav_ToggleClose = document.querySelector(".qld__main-nav__toggle--close"),
             this.mainNav_MenuInner = document.querySelector('.qld__main-nav__menu-inner');
+            //Back to top
+            this.backToTopBtn = document.querySelector(".qld__btn--back-to-top");
         },
         /* QDGS Bug Fixes START */
         mainNav_ToggleFocus: function () {
@@ -50,6 +53,28 @@
                     }, 300);
                 }
             });
+        },
+        backToTop: function () {          
+            this.backToTopBtn.addEventListener('click', (event) => {
+                event.preventDefault();
+                this.scrollToTop();
+            });
+        },
+        backToTopOnScroll: function() {
+            if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+                this.backToTopBtn.style.display = "block";
+            } else {
+                this.backToTopBtn.style.display = "none";
+            }
+        },
+        scrollToTop: function (topOffset) {
+            let topOffsetLocal = 0;
+            if(topOffset){
+                topOffsetLocal = topOffset;
+            }
+            $('html, body').animate({
+                scrollTop: topOffsetLocal
+            }, 400);
         },
         /* QDGS Bug Fixes END */
         /* ------------------ */
@@ -103,17 +128,57 @@
                 this.mainNav_ItemToggleIconStatus();
                 this.mainNav_HandleBackgroundClick();
                 // QDGS Bug Fixes END
-
-                // Custom START
             }
-
+        },
+        activateAll: function () {
             // Custom START
             this.linkDecorator();
+            this.backToTop();
+
+            this.videoEmbedPlay();
+            this.videoTranscriptToggle();
+        },
+        videoEmbedPlay: function() {
+            $('.qld__video_player__video .qld__video_player__thumbnail').on('click', function(event){
+                event.preventDefault();
+
+                const thumbnail = event.target,
+                    component = thumbnail.closest(".qld__video_player__video"),
+                    iframe = component.querySelector(".qld__video_player__iframe iframe")
+
+                component.classList.remove("not-ready");
+
+                // Parse iFrame URL and set the 'autoplay' parameter to 1.
+                if (!iframe.classList.contains("video-custom")) {
+                    const url = new URL(iframe.src);
+                    url.searchParams.set('autoplay', '1');
+                    iframe.src = url.toString();
+                }
+
+                iframe.focus();
+            });
+        },
+        videoTranscriptToggle: function() {
+            $('.qld__video_player__transcript .qld__accordion__title').on('click', function(event){
+                const accordionButton = event.target
+                if (accordionButton.classList.contains('qld__accordion--closed')) {
+                    accordionButton.textContent = "Show transcript"
+                }
+                else {
+                    accordionButton.textContent = "Hide transcript"
+                }
+            });
         },
     };
     
+    //When DOM is loaded
     window.addEventListener('DOMContentLoaded', function () {
         TMR_DS.init();
+    });
+
+    //When page is scrolled
+    window.addEventListener('scroll', function() {
+        TMR_DS.backToTopOnScroll();
     });
 
 })();

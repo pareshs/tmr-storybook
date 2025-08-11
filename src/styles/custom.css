@@ -9,7 +9,7 @@
 */
 
 /*
-  Design System CSS Overrides
+  Design System CSS Overrides START
 */
 /* PBI 79887 */
 .qld__main-nav .qld__main-nav__menu .qld__main-nav__item.active .qld__main-nav__item-link:hover {
@@ -24,18 +24,56 @@
   font-weight: bold;
 }
 
+/* Card List */
+.qld__body .qld__card-list.qld__card-list--matchheight .col-xs-12:nth-of-type(1), .qld__body .qld__card-list.qld__card-list--matchheight .col-md-6:nth-of-type(-n + 2){
+    margin-top: 24px;
+    margin-top: 1.5rem;
+}
+/* Slick Slider */
+.slick-slider.qld__card-list .slick-slide{
+  margin-bottom: 35px;
+}
+/* Back to top */ 
+/* PBI 80189 */
+body .qld__widgets a.qld__btn.qld__btn--back-to-top{
+  display: none;
+}
+/* PBI 80257 */
+body a.qld__btn.qld__btn--floating.qld__btn--back-to-top:visited svg{
+  color: var(--QLD-color-light__action--secondary);
+}
+/* PBI 80258*/
+body a.qld__btn.qld__btn--floating.qld__btn--back-to-top:focus span {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-color: var(--QLD-color-light__link);
+  text-decoration-color: var(--QLD-color-light__link);
+  text-underline-offset: var(--QLD-underline__offset);
+}
+/* Tablet Portrait View */
 @media (min-width: 699px) and (max-width: 992px)  {
   /* PBI 79856 */
   .qld__footer__navigation ul.qld__link-list{
     justify-content: flex-start;
   }
 }
+/* Mobile and Tablet Landscape View */
 @media (max-width: 992px)  {
   /* PBI 79883 */
   .qld__header__pre-header > div > a{
     z-index: 1;
   }
+  /* PBI 80277 */  
+  body a.qld__btn.qld__btn--floating.qld__btn--back-to-top:hover span { 
+    text-decoration: none; 
+  }
+  body a.qld__btn.qld__btn--floating.qld__btn--back-to-top:active span,
+  body a.qld__btn.qld__btn--floating.qld__btn--back-to-top:focus span { 
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
 }
+/* Desktop View */
 @media (min-width: 992px){
   /* PBI 79911 */
   .qld__main-nav.qld__main-nav--mega .qld__main-nav__item-toggle.qld__accordion--open{
@@ -45,4 +83,23 @@
     -webkit-text-decoration-color: var(--QLD-color-light__underline--hover);
     text-decoration-color: var(--QLD-color-light__underline--hover);
   }
+  /* Card List */
+  .qld__body .qld__card-list.qld__card-list--matchheight .col-xs-12:nth-of-type(1), .qld__body .qld__card-list.qld__card-list--matchheight .col-md-6:nth-of-type(-n + 2){
+    margin-top: 32px;
+    margin-top: 2rem;
+  }
 }
+/*
+  Design System CSS Overrides END
+*/
+
+/*
+  Custom Code START
+*/
+.qld__body p{
+  max-width: 100%;
+}
+
+/*
+  Custom Code END
+*/

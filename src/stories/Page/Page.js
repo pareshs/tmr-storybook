@@ -1,11 +1,15 @@
 import { createHeader } from '../Header/Header';
+import { createNavigation } from '../Navigation/Navigation';
 import { createFooter } from '../Footer/Footer';
-import './page.css';
 
 export const createPage = ({data}) => {
   const main = document.createElement('main');
   let header = null;
   let footer = null;
+
+  const createNavigationElement = () => {
+    return createNavigation({data}).outerHTML;
+  };
 
   const createHeaderElement = () => {
     return createHeader({data}).outerHTML;
@@ -16,9 +20,10 @@ export const createPage = ({data}) => {
   };
 
   header = createHeaderElement();
+  navigation = createNavigationElement();
   footer = createFooterElement();
 
-  const section = `
+  const mainContent = `
 <main class="main">
   <div class="qld__body">
     <div class="container-fluid" id="content">
@@ -41,7 +46,7 @@ export const createPage = ({data}) => {
 </main>
 `;
 
-  const pageContents = [header, section, footer];
+  const pageContents = [header, navigation, mainContent, footer];
   const pageContentRender = pageContents.join('');
   main.innerHTML = pageContentRender;
 
