@@ -19,7 +19,7 @@ export const createHeader = ({ data }) => {
                     <!-- Government link and logo used for mobile display -->
                     <a href="https://qld.gov.au">
                             <span class="qld__header__pre-header-url">qld.gov.au</span>
-                            <img class="qld__header__pre-header-brand-image" alt="Queensland Government" src="../src/images/coa-landscape-white.svg">
+                            <img class="qld__header__pre-header-brand-image" alt="Queensland Government" src="/images/coa-landscape-white.svg">
                     </a>
 
                 <!-- CTA wrapper for right aligned links in the preheader -->
@@ -34,7 +34,7 @@ export const createHeader = ({ data }) => {
                         <!-- Menu icon -->
                         <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
                              class="qld__icon qld__icon--lg">
-                            <use href="../src/images/icons.svg#menu"></use>
+                            <use href="/images/icons.svg#menu"></use>
                         </svg>
                         <!-- Menu button label -->
                         <span class="qld__main-nav__toggle-text">Menu</span>
@@ -52,7 +52,7 @@ export const createHeader = ({ data }) => {
                         <a href="/">
                             <!-- QLD Government logo -->
                             <div class="qld__header__brand-image">
-                                <img alt="Coat of Arms for Queensland Government on two lines" src="../src/images/coa-landscape-2-lines.svg">
+                                <img alt="Coat of Arms for Queensland Government on two lines" src="/images/coa-landscape-2-lines.svg">
                             </div>
                             <!-- Site name and description -->
                             <div class="qld__header__site-name">

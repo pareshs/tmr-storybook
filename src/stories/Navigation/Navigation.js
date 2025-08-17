@@ -22,7 +22,7 @@ export const createNavigation = ({ data }) => {
                             <!-- SVG icon for the close button -->
                             <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
                                  class="qld__icon qld__icon--md">
-                                <use href="../src/images/icons.svg#close"></use>
+                                <use href="/images/icons.svg#close"></use>
                             </svg>
                             <span class="qld__main-nav__toggle-text">Close</span>
                         </button>
@@ -36,7 +36,7 @@ export const createNavigation = ({ data }) => {
                                             <span class="qld__main-nav__item-icon">
                                                 <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
                                                      class="qld__icon qld__icon--md">
-                                                    <use href="../src/images/icons.svg#home"></use>
+                                                    <use href="/images/icons.svg#home"></use>
                                                 </svg>
 
                                             </span>

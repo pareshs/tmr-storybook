@@ -6,6 +6,10 @@ const config = {
     "../src/stories/**/*.mdx",
     "../src/stories/**/*.stories.@(js|jsx|mjs|ts|tsx|mdx)"
   ],
+  "staticDirs": [
+    "../public", 
+    "../static"
+  ],
   "addons": [
     "@storybook/addon-docs",
     "@storybook/addon-a11y",

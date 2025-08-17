@@ -25,7 +25,7 @@ export const createFooter = ({ footerContactHasPhone, footerContactHasEmail, foo
 
   let footerPhone = `
                             <p class="qld__footer__cta-content">
-                               <a href="tel:${data.contact.list.phone.label}"><svg class="qld__icon qld__icon--lead qld__icon--xs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="../src/images/icons.svg#phone"></use></svg>Phone: ${data.contact.list.phone.label}
+                               <a href="tel:${data.contact.list.phone.label}"><svg class="qld__icon qld__icon--lead qld__icon--xs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="/images/icons.svg#phone"></use></svg>Phone: ${data.contact.list.phone.label}
                                 </a>
                             </p>
   `;
@@ -35,7 +35,7 @@ export const createFooter = ({ footerContactHasPhone, footerContactHasEmail, foo
 
   let footerEmail = `
                             <p class="qld__footer__cta-content">
-                                <a href="mailto:${data.contact.list.email.label}"><svg class="qld__icon qld__icon--lead qld__icon--xs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="../src/images/icons.svg#Email"></use></svg>Email: ${data.contact.list.email.label}</a>
+                                <a href="mailto:${data.contact.list.email.label}"><svg class="qld__icon qld__icon--lead qld__icon--xs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="/images/icons.svg#Email"></use></svg>Email: ${data.contact.list.email.label}</a>
                             </p>
   `;
   if(!footerContactHasEmail){
@@ -85,31 +85,31 @@ export const createFooter = ({ footerContactHasPhone, footerContactHasEmail, foo
                     <ul class="qld__link-list">
                         <li>
                             <a class="qld__footer__clickable__link" href="#">
-                                <svg class="qld__icon qld__icon--md" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="../src/images/icons.svg#Facebook"></use></svg>
+                                <svg class="qld__icon qld__icon--md" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="/images/icons.svg#Facebook"></use></svg>
                                 <span class="qld__footer__social__label">Facebook</span>
                             </a>
                         </li>
                         <li>
                             <a class="qld__footer__clickable__link" href="#">
-                                <svg class="qld__icon qld__icon--md" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="../src/images/icons.svg#Instagram"></use></svg>
+                                <svg class="qld__icon qld__icon--md" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="/images/icons.svg#Instagram"></use></svg>
                                 <span class="qld__footer__social__label">Instagram</span>
                             </a>
                         </li>
                         <li>
                             <a class="qld__footer__clickable__link" href="#">
-                                <svg class="qld__icon qld__icon--md" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="../src/images/icons.svg#LinkedIn"></use></svg>
+                                <svg class="qld__icon qld__icon--md" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="/images/icons.svg#LinkedIn"></use></svg>
                                 <span class="qld__footer__social__label">LinkedIn</span>
                             </a>
                         </li>
                         <li>
                             <a class="qld__footer__clickable__link" href="#">
-                                <svg class="qld__icon qld__icon--md" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="../src/images/icons.svg#YouTube"></use></svg>
+                                <svg class="qld__icon qld__icon--md" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="/images/icons.svg#YouTube"></use></svg>
                                 <span class="qld__footer__social__label">Youtube</span>
                             </a>
                         </li>
                         <li>
                             <a class="qld__footer__clickable__link" href="#">
-                                <svg class="qld__icon qld__icon--md" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="../src/images/icons.svg#X"></use></svg>
+                                <svg class="qld__icon qld__icon--md" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="/images/icons.svg#X"></use></svg>
                                 <span class="qld__footer__social__label">Twitter</span>
                             </a>
                         </li>
@@ -126,7 +126,7 @@ export const createFooter = ({ footerContactHasPhone, footerContactHasEmail, foo
   if(footerHasCoa){
     footerCOA = `
                     <a class="qld__footer__logo" href="https://www.qld.gov.au/">
-                        <img class="qld__footer__logo-image" alt="Queensland Government Coat of Arms" src="../src/images/coa-landscape-2-lines.svg">                    
+                        <img class="qld__footer__logo-image" alt="Queensland Government Coat of Arms" src="/images/coa-landscape-2-lines.svg">                    
                     </a>`;
   }
 

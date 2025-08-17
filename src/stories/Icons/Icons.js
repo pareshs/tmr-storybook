@@ -12,7 +12,7 @@ export const iconsList = ({ iconsData }) => {
 <div class="icon-body">
     <div class="icon">
         <svg class="qld__icon qld__icon--lead qld__icon--xl" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-            <use href="../src/images/icons.svg#${value}"></use>
+            <use href="/images/icons.svg#${value}"></use>
         </svg>
     </div>
     <code>#${key}</code>
