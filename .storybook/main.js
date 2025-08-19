@@ -8,7 +8,6 @@ const config = {
   ],
   "staticDirs": [
     "../public", 
-    "../static"
   ],
   "addons": [
     "@storybook/addon-docs",

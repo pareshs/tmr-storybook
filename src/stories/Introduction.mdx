@@ -1,1 +1,35 @@
-<h2>TEST</h2>
+# Introduction
+We have developed a testing environment for Frontend (FED) code using Storybook and Chromatic.
+
+## Storybook (Open Source Software)
+- Used for building and testing components and pages in isolation.
+- Involves creating mock pages with components such as cards, banners, etc.
+- These pages consist of static HTML, CSS, and JS, but Storybook allows testing of different scenarios (e.g., displaying 3 cards vs. 6 cards).
+- When CSS changes are made in Storybook, Chromatic compares the old screenshot with the new one and highlights the differences.
+- Together, Storybook and Chromatic help identify accessibility issues.
+
+## Chromatic
+- Captures screenshots, compares before-and-after images, and provides a report on any changes.
+- Requires integration with Storybook.
+
+## Running and building storybook 
+1. Clone the repository if you have not done that already
+2. Execute `npm install` in this directory to download the required dependencies
+3. Execute `npm run build-storybook` to generate and build necessary filters
+4. Execute `npm run storybook` to locally host the application
+
+## Initial steps to setup storybook for the first time
+1. Execute `npm install` to setup npm
+2. Execute `npm init` to get the folder ready for setup
+3. Execute `npm create storybook@latest` to install storybook
+4. Install addons
+4.1. Execute `npx storybook@latest add @storybook/addon-a11y`
+4.2. Execute `npx storybook@latest add  @storybook/addon-themes`
+4.3. Execute `npx storybook@latest add  @chromatic-com/storybook`
+4.4 Excute `npm install chromatic --save-dev`
+
+## Resources
+- [Design System](https://www.design-system.health.qld.gov.au/)
+- [Design System Repo](https://github.com/Qld-Health-Online-Team/design-system)
+- [Design System Figma](https://www.figma.com/design/qKsxl3ogIlBp7dafgxXuCA/QGDS-UI-kit?node-id=46300-387622&node-type=canvas)
+- [MSQ Figma](https://www.figma.com/design/R6c3umqUMq7kqFSgdhyjz7/MSQ-ITB?node-id=92000-20098&p=f&t=4PW4kXEI5iUybYU3-0)
