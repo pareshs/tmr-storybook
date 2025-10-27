@@ -1,6 +1,8 @@
 {
     "sitename": "Citytrain Response Unit",
     "organisationName": "Department of Transport and Main Roads",
+    "preHeaderVariant": "dark",
+    "headerVariant": "light",
     
     "footerContactHasPhone": true,
     "footerContactHasEmail": true,
@@ -12,6 +14,14 @@
         "title": "Contact us",
         "content": "If you have a question or would like to give feedback, you can get in touch with us.",
         "list": {
+            "home": {
+                "icon": "home",
+                "label": "/"
+            },
+            "tmr": {
+                "icon": "language",
+                "label": "https://www.tmr.qld.gov.au/"
+            },
             "phone": {
                 "icon": "phone",
                 "label": "13 QGOV (13 74 68)"

@@ -9,8 +9,18 @@ export default {
     layout: 'padded',
   },
   argTypes: {
+    preHeaderVariant: {
+      control: {type: 'select' },
+      options: ['light', 'dark', 'dark-alt'],
+    },
+    headerVariant: {
+      control: {type: 'select' },
+      options: ['light', 'dark', 'dark-alt'],
+    },
   },
   args: {
+    preHeaderVariant: data.preHeaderVariant,
+    headerVariant: data.headerVariant,
     data: data
   },
 };
