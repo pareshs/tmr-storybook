@@ -1,3 +1,4 @@
+//import { createGlobalAlerts } from '../GlobalAlerts/GlobalAlerts';
 import { createHeader } from '../Header/Header';
 import { createNavigation } from '../Navigation/Navigation';
 import { createFooter } from '../Footer/Footer';
@@ -6,6 +7,13 @@ export const createPage = ({data}) => {
   const main = document.createElement('main');
   let header = null;
   let footer = null;
+  let globalAlerts = null;
+
+  /*
+  const createGlobalAlertsElement = () => {
+    return createGlobalAlerts({data}).outerHTML;
+  };
+  */
 
   const createNavigationElement = () => {
     return createNavigation({data}).outerHTML;
@@ -19,6 +27,7 @@ export const createPage = ({data}) => {
     return createFooter({data}).outerHTML;
   };
 
+  //globalAlerts = createGlobalAlerts();
   header = createHeaderElement();
   navigation = createNavigationElement();
   footer = createFooterElement();
