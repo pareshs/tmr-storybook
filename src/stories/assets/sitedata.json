@@ -2,9 +2,9 @@
     "sitename": "Citytrain Response Unit",
     "organisationName": "Department of Transport and Main Roads",
     "preHeaderVariant": "dark",
-    "preHeaderCTAIconHome" : true,
-    "preHeaderCTAIconContact" : true,
-    "preHeaderCTAIconTMR" : true,
+    "preHeaderCTAIconHome_sd" : true,
+    "preHeaderCTAIconContact_sd" : true,
+    "preHeaderCTAIconTMR_sd" : true,
     "headerVariant": "light",
     
     "footerContactHasPhone": true,

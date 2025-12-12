@@ -14,7 +14,7 @@ export const createHeader = ({ preHeaderVariant, headerVariant, data }) => {
             <a class="qld__skip-link__link" href="#main-nav">Skip to main navigation</a>
         </nav>
 `;
-  const preHeaderCTAIconHome =`
+  let preHeaderCTAIconHome =`
             <a class="qld__header__cta-link" href="tel:${data.contact.list.home.label}">
                 <span class="qld__header__cta-link-icon">
                     <svg class="qld__icon qld__icon--lead qld__icon--xs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="/images/icons.svg#home"></use></svg>
@@ -22,27 +22,40 @@ export const createHeader = ({ preHeaderVariant, headerVariant, data }) => {
                 <span class="qld__header__cta-link-text">Home Page</span>
             </a>
   `;
-  const preHeaderCTA = `
-        <!-- CTA wrapper for right aligned links in the preheader -->
-        <div id="cta-wrapper" class="qld__header__cta-wrapper">
-            <a class="qld__header__cta-link" href="tel:${data.contact.list.home.label}">
-                <span class="qld__header__cta-link-icon">
-                    <svg class="qld__icon qld__icon--lead qld__icon--xs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="/images/icons.svg#home"></use></svg>
-                </span>
-                <span class="qld__header__cta-link-text">Home Page</span>
-            </a>
-            <a class="qld__header__cta-link" href="tel:${data.contact.list.phone.label}">
+  if(!data.preHeaderCTAIconHome_sd){
+    preHeaderCTAIconHome = '';
+  }
+
+  let preHeaderCTAIconContact = `
+              <a class="qld__header__cta-link" href="tel:${data.contact.list.phone.label}">
                 <span class="qld__header__cta-link-icon">
                     <svg class="qld__icon qld__icon--lead qld__icon--xs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="/images/icons.svg#phone"></use></svg>
                 </span>
                 <span class="qld__header__cta-link-text">Contact us</span>
             </a>
+  `;
+  if(!data.preHeaderCTAIconContact_sd){
+    preHeaderCTAIconContact = '';
+  }
+
+  let preHeaderCTAIconTMR = `
             <a class="qld__header__cta-link" href="tel:${data.contact.list.tmr.label}">
                 <span class="qld__header__cta-link-icon">
                     <svg class="qld__icon qld__icon--lead qld__icon--xs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="/images/icons.svg#language"></use></svg>
                 </span>
                 <span class="qld__header__cta-link-text">TMR Website</span>
             </a>
+  `;
+  if(!data.preHeaderCTAIconTMR_sd){
+    preHeaderCTAIconTMR = '';
+  }
+
+  const preHeaderCTA = `
+        <!-- CTA wrapper for right aligned links in the preheader -->
+        <div id="cta-wrapper" class="qld__header__cta-wrapper">
+            ${preHeaderCTAIconHome}
+            ${preHeaderCTAIconContact}
+            ${preHeaderCTAIconTMR}
         </div>
   `;
 

@@ -21,6 +21,7 @@ export default {
   args: {
     preHeaderVariant: data.preHeaderVariant,
     headerVariant: data.headerVariant,
+    //preHeaderCTAIconHome_sd: data.preHeaderCTAIconHome_sd,
     data: data
   },
 };
