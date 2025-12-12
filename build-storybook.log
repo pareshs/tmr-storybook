@@ -1,12 +1,188 @@
 
 > tmr-storybook@1.0.0 build-storybook
-> storybook build --output-dir=C:\Users\paresh\AppData\Local\Temp\2\chromatic--5000-ObTdU0ErZCEf --webpack-stats-json=C:\Users\paresh\AppData\Local\Temp\2\chromatic--5000-ObTdU0ErZCEf
+> storybook build --output-dir=C:\Users\paresh\AppData\Local\Temp\2\chromatic--3180-pRd4q8WBfml6
 
-[1mstorybook v9.1.1
-[22m
-info => Cleaning outputDir: [36m..\..\AppData\Local\Temp\2\chromatic--5000-ObTdU0ErZCEf[39m
-info => Loading presets
-info => Building manager..
-info => Building preview..
-[36mvite v7.0.6 [32mbuilding for production...[36m[39m
-transforming...
+
+[90m┌[39m  Building storybook v10.1.7
+[90m│[39m
+[32m◇[39m  Cleaning outputDir:
+[90m│[39m  [36m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6[39m
+[90m│[39m
+[32m◇[39m  Loading presets
+[90m│[39m
+[32m◇[39m  Building manager..
+[90m│[39m
+[34m●[39m  Building preview..
+[90m│[39m
+[34m●[39m  Copying static files: [36mpublic[39m at
+[90m│[39m  [36m..\..\AppData\Local\Temp\2\chromatic--3180-pRd4q8WBfml6[39m
+[90m│[39m  [43mVite[49m [36mvite v7.2.7 [32mbuilding client environment for production...[36m[39m
+[90m│[39m  [43mVite[49m transforming...
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  mysource_files/ajax-loader.gif referenced in
+[90m│[39m  mysource_files/ajax-loader.gif didn't resolve at build time, it will
+[90m│[39m  remain unchanged to be resolved at runtime
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  ./mysource_files/slick.eot referenced in ./mysource_files/slick.eot
+[90m│[39m  didn't resolve at build time, it will remain unchanged to be resolved
+[90m│[39m  at runtime
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  ./mysource_files/slick.eot?#iefix referenced in
+[90m│[39m  ./mysource_files/slick.eot? didn't resolve at build time, it will
+[90m│[39m  remain unchanged to be resolved at runtime
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  mysource_files/file.svg referenced in mysource_files/file.svg didn't
+[90m│[39m  resolve at build time, it will remain unchanged to be resolved at
+[90m│[39m  runtime
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  mysource_files/pdf.svg referenced in mysource_files/pdf.svg didn't
+[90m│[39m  resolve at build time, it will remain unchanged to be resolved at
+[90m│[39m  runtime
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  mysource_files/doc.svg referenced in mysource_files/doc.svg didn't
+[90m│[39m  resolve at build time, it will remain unchanged to be resolved at
+[90m│[39m  runtime
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  mysource_files/xls.svg referenced in mysource_files/xls.svg didn't
+[90m│[39m  resolve at build time, it will remain unchanged to be resolved at
+[90m│[39m  runtime
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  mysource_files/ppt.svg referenced in mysource_files/ppt.svg didn't
+[90m│[39m  resolve at build time, it will remain unchanged to be resolved at
+[90m│[39m  runtime
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  mysource_files/upload.svg referenced in mysource_files/upload.svg
+[90m│[39m  didn't resolve at build time, it will remain unchanged to be resolved
+[90m│[39m  at runtime
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  mysource_files/error.svg referenced in mysource_files/error.svg didn't
+[90m│[39m  resolve at build time, it will remain unchanged to be resolved at
+[90m│[39m  runtime
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  mysource_files/complete.svg referenced in mysource_files/complete.svg
+[90m│[39m  didn't resolve at build time, it will remain unchanged to be resolved
+[90m│[39m  at runtime
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  ./mysource_files/slick.woff referenced in ./mysource_files/slick.woff
+[90m│[39m  didn't resolve at build time, it will remain unchanged to be resolved
+[90m│[39m  at runtime
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  ./mysource_files/slick.ttf referenced in ./mysource_files/slick.ttf
+[90m│[39m  didn't resolve at build time, it will remain unchanged to be resolved
+[90m│[39m  at runtime
+[90m│[39m
+[33m▲[39m  [43mVite[49m
+[90m│[39m  mysource_files/slick.svg#slick referenced in mysource_files/slick.svg
+[90m│[39m  didn't resolve at build time, it will remain unchanged to be resolved
+[90m│[39m  at runtime
+[90m│[39m  [43mVite[49m [32m✓[39m 76 modules transformed.
+[90m│[39m  [43mVite[49m rendering chunks...
+[90m│[39m
+[33m▲[39m  [43mVite[49m [33m[esbuild css minify]
+[90m│[39m  ▲ [WARNING] Expected identifier but found "*" [css-syntax-error]
+
+[90m│[39m  <stdin>:1904:3210:
+[90m│[39m  1904 │
+[90m│[39m  ...n:static;width:auto}.clearfix{*zoom:1}.clearfix::before,.clea...
+[90m│[39m  ╵                                  ^
+
+
+[90m│[39m  ▲ [WARNING] Expected identifier but found "*" [css-syntax-error]
+
+[90m│[39m  <stdin>:1904:2089434:
+[90m│[39m  1904 │
+[90m│[39m  ...n:static;width:auto}.clearfix{*zoom:1}.clearfix::before,.clea...
+[90m│[39m  ╵                                  ^
+
+[90m│[39m  [39m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[32miframe.html[39m[1m[2m[22m
+[90m│[39m  [2m18.36 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[35massets/button-Ba6F02s5.css[39m[1m[2m[22m
+[90m│[39m  [2m0.05 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[35massets/Icons-C--Nawff.css[39m[1m[2m[22m
+[90m│[39m  [2m0.28 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[35massets/iframe-BbfT_xOr.css[39m
+[90m│[39m  [35m[39m[1m[2m2,314.38 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Button-H_6k8mnn.js[39m[1m[2m[22m
+[90m│[39m  [2m0.32 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Navigation.stories-Y7SzyyHS.js[39m[1m[2m[22m
+[90m│[39m  [2m0.42 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Header.stories-Bhqrr1OP.js[39m[1m[2m[22m
+[90m│[39m  [2m0.66 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Footer.stories-DwROz3jo.js[39m[1m[2m[22m
+[90m│[39m  [2m0.79 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/preload-helper-PPVm8Dsz.js[39m[1m[2m[22m
+[90m│[39m  [2m1.23 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Button.stories-DXiJKyeL.js[39m[1m[2m[22m
+[90m│[39m  [2m1.26 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Page.stories-BTYf1IQQ.js[39m[1m[2m[22m
+[90m│[39m  [2m2.21 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Navigation-C-wQnNjb.js[39m[1m[2m[22m
+[90m│[39m  [2m4.26 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Megamenu.stories-DQAA1lGN.js[39m[1m[2m[22m
+[90m│[39m  [2m4.61 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Header-D_hSm6eZ.js[39m[1m[2m[22m
+[90m│[39m  [2m5.83 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Icons.stories-CVgASHNQ.js[39m[1m[2m[22m
+[90m│[39m  [2m6.18 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Footer-BaNf_2lb.js[39m[1m[2m[22m
+[90m│[39m  [2m7.64 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/sitedata-BkKTOoZx.js[39m[1m[2m[22m
+[90m│[39m  [2m8.46 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36mvite-inject-mocker-entry.js[39m[1m[2m[22m
+[90m│[39m  [2m28.30 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/matchers-DMFSMG2O-HJu_DfWo.js[39m[1m[2m[22m
+[90m│[39m  [2m29.23 kB[22m[1m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/axe-BAVEBk6W.js[39m[1m[33m[39m
+[90m│[39m  [33m571.90 kB[39m[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/iframe-_tzMXyXp.js[39m[1m[33m[39m
+[90m│[39m  [33m808.76 kB[39m[22m
+[90m│[39m
+[33m▲[39m  [43mVite[49m[33m
+[90m│[39m  (!) Some chunks are larger than 500 kB after minification. Consider:
+[90m│[39m  - Using dynamic import() to code-split the application
+[90m│[39m  - Use build.rollupOptions.output.manualChunks to improve chunking:
+[90m│[39m  ]8;;https://rollupjs.org/configuration-options/#output-manualchunkshttps://rollupjs.org/configuration-options/#output-manualchunks]8;;
+[90m│[39m  - Adjust chunk size limit for this warning via
+[90m│[39m  build.chunkSizeWarningLimit.[39m
+[90m│[39m  [43mVite[49m [32m✓ built in 1m 1s[39m
+[90m│[39m
+[32m◇[39m  Output directory:
+[90m│[39m  C:/Users/paresh/AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6
+[90m│[39m
+[90m└[39m  Storybook build completed successfully
+

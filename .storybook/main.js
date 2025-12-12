@@ -13,6 +13,7 @@ const config = {
     "@storybook/addon-docs",
     "@storybook/addon-a11y",
     "@chromatic-com/storybook",
+    "@storybook/addon-vitest"
   ],
   "framework": {
     "name": "@storybook/html-vite",
