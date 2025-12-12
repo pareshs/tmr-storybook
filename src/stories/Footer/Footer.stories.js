@@ -9,12 +9,17 @@ export default {
     layout: 'padded',
   },
   argTypes: {
+    footerVariant: {
+      control: {type: 'select' },
+      options: ['light', 'dark', 'dark-alt'],
+    },
     footerContactHasPhone: { control: 'boolean'}, 
     footerContactHasEmail: { control: 'boolean'}, 
     footerHasSocialMedia: { control: 'boolean'}, 
     footerHasCoa: { control: 'boolean'}, 
   },
   args: {
+    footerVariant: data.footerVariant,
     footerContactHasPhone: data.footerContactHasPhone,
     footerContactHasEmail: data.footerContactHasEmail,
     footerHasSocialMedia: data.footerHasSocialMedia,

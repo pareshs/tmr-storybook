@@ -7,6 +7,7 @@
     "preHeaderCTAIconTMR_sd" : true,
     "headerVariant": "light",
     
+    "footerVariant": "dark",
     "footerContactHasPhone": true,
     "footerContactHasEmail": true,
     "footerHasSocialMedia": true,

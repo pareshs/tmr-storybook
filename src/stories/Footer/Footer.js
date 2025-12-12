@@ -1,8 +1,13 @@
 import { Button } from '../Button/Button';
 
-export const createFooter = ({ footerContactHasPhone, footerContactHasEmail, footerHasSocialMedia, footerHasCoa, data }) => {
+export const createFooter = ({ footerVariant, footerContactHasPhone, footerContactHasEmail, footerHasSocialMedia, footerHasCoa, data }) => {
   const footer = document.createElement('footer');
-  footer.className = 'qld__footer qld__footer--dark';
+  let mainFooterVariantClass = 'qld__footer qld__footer--' + footerVariant;
+  let coaLandscape2LinesLogo = 'coa-landscape-2-lines';
+  if((footerVariant == 'dark') || footerVariant == 'dark-alt'){
+    coaLandscape2LinesLogo = 'coa-landscape-2-lines-white';
+  }
+  footer.className = mainFooterVariantClass;
   footer.role = 'contentinfo';
 
   const footerSections_organisationTitle = `
@@ -126,7 +131,7 @@ export const createFooter = ({ footerContactHasPhone, footerContactHasEmail, foo
   if(footerHasCoa){
     footerCOA = `
                     <a class="qld__footer__logo" href="https://www.qld.gov.au/">
-                        <img class="qld__footer__logo-image" alt="Queensland Government Coat of Arms" src="/images/coa-landscape-2-lines.svg">                    
+                        <img class="qld__footer__logo-image" alt="Queensland Government Coat of Arms" src="/images/${coaLandscape2LinesLogo}.svg">                    
                     </a>`;
   }
 
