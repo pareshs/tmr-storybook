@@ -22,6 +22,16 @@ export const createPage = ({data}) => {
   header = createHeaderElement();
   navigation = createNavigationElement();
   footer = createFooterElement();
+  const backToTop =`
+    <!-- Back to top -->
+    <div id="back-to-top" class="qld__widgets hide">
+    <a href="#content" class="qld__btn qld__btn--floating qld__btn--back-to-top" aria-label="Back to top">
+        <span>Back to top</span>
+        <svg class="qld__icon qld__icon--sm" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+            <use href="/assets/ds-assets/dist/images/icons.svg#arrow-up"></use>
+        </svg>
+    </a>
+  `;
 
   const mainContent = `
 <main class="main">
@@ -46,7 +56,7 @@ export const createPage = ({data}) => {
 </main>
 `;
 
-  const pageContents = [header, navigation, mainContent, footer];
+  const pageContents = [header, navigation, mainContent, footer, backToTop];
   const pageContentRender = pageContents.join('');
   main.innerHTML = pageContentRender;
 
