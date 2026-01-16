@@ -1,19 +1,35 @@
-export const createGlobalAlerts = ({ data }) => {
+export const createGlobalAlerts = ({ globalAlertsVariant, data }) => {
   const globalAlerts = document.createElement('div');
   globalAlerts.className = 'qld__global_alerts_include';
 
-  const globalAlertsContent = `
-   <!-- 
-    Default (Yellow):  <div role="region" aria-label="Warning" class="qld__global-alert qld__global-alert--critical">
-    Alerts:            <div role="region" aria-label="Warning" class="qld__global-alert qld__global-alert--default">
-    Warning:           <div role="region" aria-label="Warning" class="qld__global-alert qld__global-alert--general">
+  let mainGlobalAlertsVariantClass = 'qld__global-alert qld__global-alert--' + globalAlertsVariant;
+  let globalAlertsLabel = "Warning";
+  let globalAlertsIcon = globalAlertsLabel.toLowerCase();
+  if(globalAlertsVariant == "warning"){
+    globalAlertsLabel = "Warning";
+    globalAlertsIcon = globalAlertsLabel.toLowerCase();
+  }else if(globalAlertsVariant == "critical"){
+    globalAlertsLabel = "Critical";
+    globalAlertsIcon = "danger";
+  }else if(globalAlertsVariant == "general"){
+    globalAlertsLabel = "Information";
+    globalAlertsIcon = globalAlertsLabel.toLowerCase();
+  }
+  /*
+    <!-- 
+    Warning (Default - Amber):         <div role="region" aria-label="Warning" class="qld__global-alert qld__global-alert--default">
+    Alerts (Critical - Red):            <div role="region" aria-label="Alerts" class="qld__global-alert qld__global-alert--critical">
+    General (Information - Pale Blue): <div role="region" aria-label="Information" class="qld__global-alert qld__global-alert--general">
     -->
+  */
+  const globalAlertsContent = `
+
     <!-- Global Alerts -->
-        <div role="region" aria-label="Warning" class="qld__global-alert qld__global-alert--default">
+        <div role="region" aria-label="${globalAlertsLabel}" class="${mainGlobalAlertsVariantClass}">
             <div class="container-fluid">
                 <div class="qld__global-alert__main">
                     <div class="qld__global-alert__icon">
-                        <svg aria-label="Warning" role="img" class="qld__icon qld__icon--md"><use href="/images/icons.svg#alert-warning"></use></svg>
+                        <svg aria-label="${globalAlertsLabel}" role="img" class="qld__icon qld__icon--md"><use href="/images/icons.svg#alert-${globalAlertsIcon}"></use></svg>
                     </div>
                     <div class="qld__global-alert__content">
                         <div class="qld__global-alert__message">

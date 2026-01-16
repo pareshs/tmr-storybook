@@ -1,6 +1,7 @@
 {
     "sitename": "Citytrain Response Unit",
     "organisationName": "Department of Transport and Main Roads",
+    "globalAlertsVariant": "default",
     "preHeaderVariant": "dark",
     "preHeaderCTAIconHome_sd" : true,
     "preHeaderCTAIconContact_sd" : true,

@@ -1,12 +1,12 @@
 
 > tmr-storybook@1.0.0 build-storybook
-> storybook build --output-dir=C:\Users\paresh\AppData\Local\Temp\2\chromatic--3180-pRd4q8WBfml6
+> storybook build --output-dir=C:\Users\paresh\AppData\Local\Temp\2\chromatic--4832-qKkUwNTrUgEF --stats-json=C:\Users\paresh\AppData\Local\Temp\2\chromatic--4832-qKkUwNTrUgEF
 
 
 [90m┌[39m  Building storybook v10.1.7
 [90m│[39m
 [32m◇[39m  Cleaning outputDir:
-[90m│[39m  [36m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6[39m
+[90m│[39m  [36m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF[39m
 [90m│[39m
 [32m◇[39m  Loading presets
 [90m│[39m
@@ -15,7 +15,7 @@
 [34m●[39m  Building preview..
 [90m│[39m
 [34m●[39m  Copying static files: [36mpublic[39m at
-[90m│[39m  [36m..\..\AppData\Local\Temp\2\chromatic--3180-pRd4q8WBfml6[39m
+[90m│[39m  [36m..\..\AppData\Local\Temp\2\chromatic--4832-qKkUwNTrUgEF[39m
 [90m│[39m  [43mVite[49m [36mvite v7.2.7 [32mbuilding client environment for production...[36m[39m
 [90m│[39m  [43mVite[49m transforming...
 [90m│[39m
@@ -88,13 +88,13 @@
 [90m│[39m  mysource_files/slick.svg#slick referenced in mysource_files/slick.svg
 [90m│[39m  didn't resolve at build time, it will remain unchanged to be resolved
 [90m│[39m  at runtime
-[90m│[39m  [43mVite[49m [32m✓[39m 76 modules transformed.
+[90m│[39m  [43mVite[49m [32m✓[39m 190 modules transformed.
 [90m│[39m  [43mVite[49m rendering chunks...
 [90m│[39m
 [33m▲[39m  [43mVite[49m [33m[esbuild css minify]
 [90m│[39m  ▲ [WARNING] Expected identifier but found "*" [css-syntax-error]
 
-[90m│[39m  <stdin>:1904:3210:
+[90m│[39m  <stdin>:1904:4234:
 [90m│[39m  1904 │
 [90m│[39m  ...n:static;width:auto}.clearfix{*zoom:1}.clearfix::before,.clea...
 [90m│[39m  ╵                                  ^
@@ -102,75 +102,109 @@
 
 [90m│[39m  ▲ [WARNING] Expected identifier but found "*" [css-syntax-error]
 
-[90m│[39m  <stdin>:1904:2089434:
+[90m│[39m  <stdin>:1904:2066289:
 [90m│[39m  1904 │
 [90m│[39m  ...n:static;width:auto}.clearfix{*zoom:1}.clearfix::before,.clea...
 [90m│[39m  ╵                                  ^
 
 [90m│[39m  [39m
+[90m│[39m  [43mVite[49m computing gzip size...
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[32miframe.html[39m[1m[2m[22m
-[90m│[39m  [2m18.36 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[32miframe.html[39m[1m[2m[22m
+[90m│[39m  [2m18.55 kB[22m[1m[22m[2m │ gzip:   5.20 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[35massets/button-Ba6F02s5.css[39m[1m[2m[22m
-[90m│[39m  [2m0.05 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[35massets/button-Ba6F02s5.css[39m[1m[2m[22m
+[90m│[39m  [2m0.05 kB[22m[1m[22m[2m │ gzip:   0.06 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[35massets/Icons-C--Nawff.css[39m[1m[2m[22m
-[90m│[39m  [2m0.28 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[35massets/Icons-C--Nawff.css[39m[1m[2m[22m
+[90m│[39m  [2m0.28 kB[22m[1m[22m[2m │ gzip:   0.20 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[35massets/iframe-BbfT_xOr.css[39m
-[90m│[39m  [35m[39m[1m[2m2,314.38 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[35massets/iframe-x5ptsarW.css[39m
+[90m│[39m  [35m[39m[1m[2m2,315.45 kB[22m[1m[22m[2m │ gzip: 168.87 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Button-H_6k8mnn.js[39m[1m[2m[22m
-[90m│[39m  [2m0.32 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/_commonjsHelpers-CqkleIqs.js[39m[1m[2m[22m
+[90m│[39m  [2m0.12 kB[22m[1m[22m[2m │ gzip:   0.13 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Navigation.stories-Y7SzyyHS.js[39m[1m[2m[22m
-[90m│[39m  [2m0.42 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/formatter-QJ4M4OGQ-CJnixDHY.js[39m[1m[2m[22m
+[90m│[39m  [2m0.29 kB[22m[1m[22m[2m │ gzip:   0.24 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Header.stories-Bhqrr1OP.js[39m[1m[2m[22m
-[90m│[39m  [2m0.66 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/Button-H_6k8mnn.js[39m[1m[2m[22m
+[90m│[39m  [2m0.32 kB[22m[1m[22m[2m │ gzip:   0.24 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Footer.stories-DwROz3jo.js[39m[1m[2m[22m
-[90m│[39m  [2m0.79 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/Navigation.stories-zfCnQPwn.js[39m[1m[2m[22m
+[90m│[39m  [2m0.42 kB[22m[1m[22m[2m │ gzip:   0.27 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/preload-helper-PPVm8Dsz.js[39m[1m[2m[22m
-[90m│[39m  [2m1.23 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/index-CX3wLZrL.js[39m[1m[2m[22m
+[90m│[39m  [2m0.46 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Button.stories-DXiJKyeL.js[39m[1m[2m[22m
-[90m│[39m  [2m1.26 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/Header.stories-CGx63LqI.js[39m[1m[2m[22m
+[90m│[39m  [2m0.66 kB[22m[1m[22m[2m │ gzip:   0.35 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Page.stories-BTYf1IQQ.js[39m[1m[2m[22m
-[90m│[39m  [2m2.21 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/Footer.stories-379G6T5N.js[39m[1m[2m[22m
+[90m│[39m  [2m0.89 kB[22m[1m[22m[2m │ gzip:   0.43 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Navigation-C-wQnNjb.js[39m[1m[2m[22m
-[90m│[39m  [2m4.26 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/preload-helper-PPVm8Dsz.js[39m[1m[2m[22m
+[90m│[39m  [2m1.23 kB[22m[1m[22m[2m │ gzip:   0.71 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Megamenu.stories-DQAA1lGN.js[39m[1m[2m[22m
-[90m│[39m  [2m4.61 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/Button.stories-DXiJKyeL.js[39m[1m[2m[22m
+[90m│[39m  [2m1.26 kB[22m[1m[22m[2m │ gzip:   0.53 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Header-D_hSm6eZ.js[39m[1m[2m[22m
-[90m│[39m  [2m5.83 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/GlobalAlerts.stories-CVaWOcJb.js[39m[1m[2m[22m
+[90m│[39m  [2m1.47 kB[22m[1m[22m[2m │ gzip:   0.52 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Icons.stories-CVgASHNQ.js[39m[1m[2m[22m
-[90m│[39m  [2m6.18 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/GlobalAlerts-DHpUCAJG.js[39m[1m[2m[22m
+[90m│[39m  [2m1.81 kB[22m[1m[22m[2m │ gzip:   0.58 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/Footer-BaNf_2lb.js[39m[1m[2m[22m
-[90m│[39m  [2m7.64 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/Page.stories-B0ehzGfv.js[39m[1m[2m[22m
+[90m│[39m  [2m2.78 kB[22m[1m[22m[2m │ gzip:   1.31 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/sitedata-BkKTOoZx.js[39m[1m[2m[22m
-[90m│[39m  [2m8.46 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/Introduction-C6Pf90q4.js[39m[1m[2m[22m
+[90m│[39m  [2m3.90 kB[22m[1m[22m[2m │ gzip:   1.40 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36mvite-inject-mocker-entry.js[39m[1m[2m[22m
-[90m│[39m  [2m28.30 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/Navigation-C-wQnNjb.js[39m[1m[2m[22m
+[90m│[39m  [2m4.26 kB[22m[1m[22m[2m │ gzip:   0.88 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/matchers-DMFSMG2O-HJu_DfWo.js[39m[1m[2m[22m
-[90m│[39m  [2m29.23 kB[22m[1m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/Megamenu.stories-DNk6nJ_o.js[39m[1m[2m[22m
+[90m│[39m  [2m4.61 kB[22m[1m[22m[2m │ gzip:   1.08 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/axe-BAVEBk6W.js[39m[1m[33m[39m
-[90m│[39m  [33m571.90 kB[39m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/Header-CNkleP6u.js[39m[1m[2m[22m
+[90m│[39m  [2m6.00 kB[22m[1m[22m[2m │ gzip:   1.53 kB[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6/[22m[36massets/iframe-_tzMXyXp.js[39m[1m[33m[39m
-[90m│[39m  [33m808.76 kB[39m[22m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/Icons.stories-CVgASHNQ.js[39m[1m[2m[22m
+[90m│[39m  [2m6.18 kB[22m[1m[22m[2m │ gzip:   2.08 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/Footer-DqLDrhOv.js[39m[1m[2m[22m
+[90m│[39m  [2m6.78 kB[22m[1m[22m[2m │ gzip:   1.51 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/sitedata-kjDPmuCf.js[39m[1m[2m[22m
+[90m│[39m  [2m8.52 kB[22m[1m[22m[2m │ gzip:   3.22 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/index-Cb5RFgm8.js[39m[1m[2m[22m
+[90m│[39m  [2m8.56 kB[22m[1m[22m[2m │ gzip:   3.31 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36mvite-inject-mocker-entry.js[39m[1m[2m[22m
+[90m│[39m  [2m28.30 kB[22m[1m[22m[2m │ gzip:   9.84 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/matchers-DMFSMG2O-HJu_DfWo.js[39m[1m[2m[22m
+[90m│[39m  [2m29.23 kB[22m[1m[22m[2m │ gzip:  10.06 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/Color-ASIRERSW-26oMUonx.js[39m[1m[2m[22m
+[90m│[39m  [2m29.97 kB[22m[1m[22m[2m │ gzip:  11.38 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/WithTooltip-IO6J4KBT-CEpl2Ww5.js[39m[1m[2m[22m
+[90m│[39m  [2m33.11 kB[22m[1m[22m[2m │ gzip:  11.67 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/syntaxhighlighter-IQDEPFLK-Bk9Fng9e.js[39m[1m[2m[22m
+[90m│[39m  [2m77.96 kB[22m[1m[22m[2m │ gzip:  27.35 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/axe-DDhG62ZF.js[39m[1m[33m[39m
+[90m│[39m  [33m571.85 kB[39m[22m[2m │ gzip: 157.75 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/iframe-DuXe78EA.js[39m[1m[33m[39m
+[90m│[39m  [33m813.45 kB[39m[22m[2m │ gzip: 227.87 kB[22m
+[90m│[39m  [43mVite[49m
+[90m│[39m  [2m../../AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF/[22m[36massets/DocsRenderer-GHJI37HO-DfZt58KR.js[39m[1m[33m[39m
+[90m│[39m  [33m991.12 kB[39m[22m[2m │ gzip: 316.52 kB[22m
 [90m│[39m
 [33m▲[39m  [43mVite[49m[33m
 [90m│[39m  (!) Some chunks are larger than 500 kB after minification. Consider:
@@ -179,10 +213,13 @@
 [90m│[39m  ]8;;https://rollupjs.org/configuration-options/#output-manualchunkshttps://rollupjs.org/configuration-options/#output-manualchunks]8;;
 [90m│[39m  - Adjust chunk size limit for this warning via
 [90m│[39m  build.chunkSizeWarningLimit.[39m
-[90m│[39m  [43mVite[49m [32m✓ built in 1m 1s[39m
+[90m│[39m  [43mVite[49m [32m✓ built in 37.28s[39m
+[90m│[39m
+[34m●[39m  Preview stats written to
+[90m│[39m  [36mC:\Users\paresh\AppData\Local\Temp\2\chromatic--4832-qKkUwNTrUgEF\preview-stats.json[39m
 [90m│[39m
 [32m◇[39m  Output directory:
-[90m│[39m  C:/Users/paresh/AppData/Local/Temp/2/chromatic--3180-pRd4q8WBfml6
+[90m│[39m  C:/Users/paresh/AppData/Local/Temp/2/chromatic--4832-qKkUwNTrUgEF
 [90m│[39m
 [90m└[39m  Storybook build completed successfully
 
