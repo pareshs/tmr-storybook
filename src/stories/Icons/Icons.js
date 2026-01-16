@@ -22,7 +22,7 @@ export const iconsList = ({ iconsData }) => {
     }
 
     let iconsContentWrapStart = '<div class="row-flex">';
-    let iconsContentWrapEnd = '</>';
+    let iconsContentWrapEnd = '</div>';
     const iconContents = [iconContent, iconsContentWrapStart, iconsContentList, iconsContentWrapEnd];
     icons.innerHTML = iconContents;
 
