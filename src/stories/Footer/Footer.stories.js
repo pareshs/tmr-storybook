@@ -3,14 +3,23 @@ import data from "./../assets/sitedata.json";
 
 export default {
   title: 'Layout/Footer',
-  tags: ['autodocs'],
+  tags: ['autodocs', "extended"],
   render: (args) => createFooter(args),
   parameters: {
     layout: 'padded',
   },
   argTypes: {
     footerVariant: {
-      control: {type: 'select' },
+      description: "Footer variations",
+      default: "dark",
+      control: {
+        type: 'select',
+        labels: {
+          "light": "Light",
+          "dark": "Dark",
+          "dark-alt": "Dark Alternate",
+        },
+      },
       options: ['light', 'dark', 'dark-alt'],
     },
     footerContactHasPhone: { control: 'boolean'}, 
@@ -29,3 +38,25 @@ export default {
 };
 
 export const Footer = {};
+
+// Footer
+export const FooterLight = {
+  args:  {
+    footerVariant: 'light',
+    data: data
+  },
+};
+
+export const FooterDark = {
+  args:  {
+    footerVariant: 'dark',
+    data: data
+  },
+};
+
+export const FooterDarkAlternate = {
+  args:  {
+    footerVariant: 'dark-alt',
+    data: data
+  },
+};
