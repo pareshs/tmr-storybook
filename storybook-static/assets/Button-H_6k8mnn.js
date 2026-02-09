@@ -1,0 +1,1 @@
+/* empty css               */const d=({variant:n="primary",label:e,disabled:r,backgroundColor:o,onClick:a})=>{const t=document.createElement("button");return t.variant="button",t.innerText=e,t.addEventListener("click",a),t.className=`qld__btn qld__btn--${n}`,t.style.backgroundColor=o,t.disabled=r,t};export{d as B};
